@@ -23,4 +23,4 @@ mvn install
 - In command line: java -jar Registration-0.0.1-SNAPSHOT.jar
 
 ## API document 
-- http://localhost:8080/swagger-ui/index.html
+- "/swagger-ui/index.html"
