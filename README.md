@@ -7,7 +7,7 @@
 mvn install
 
 ## Features
-- Creating a RESTful API
+Creating a RESTful API
 - User registration
 - An endpoint to Registered User and search specifical User
 - Persistence for storing users in H2 database
@@ -16,7 +16,7 @@ mvn install
 
 ## Endpoints
 - "/api/v1/rest/users" register user endpoint
-- "/api/v1/rest/users/find" finding specifical user given username in  parameter endpoint
+- "/api/v1/rest/users/find" find specifical user given username in  parameter endpoint
 
 ## Tests
 - src/test holds the unit and integration tests
