@@ -1,0 +1,13 @@
+{
+  "properties": [
+    {
+      "name": "log4j.logger.org.springframework.aop.interceptor.PerformanceMonitorInterceptor",
+      "type": "java.lang.String",
+      "description": "Description for log4j.logger.org.springframework.aop.interceptor.PerformanceMonitorInterceptor."
+    },
+    {
+      "name": "aspect.enabled",
+      "type": "java.lang.String",
+      "description": "Description for aspect.enabled."
+    }
+  ] }

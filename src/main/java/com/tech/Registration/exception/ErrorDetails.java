@@ -1,27 +1,22 @@
 package com.tech.Registration.exception;
+
+import lombok.Getter;
+
 import java.util.Date;
 
+@Getter
 public class ErrorDetails {
+
+    private int statusCode;
     private Date timestamp;
     private String message;
-    private String details;
+    private String description;
 
-    public ErrorDetails(Date timestamp, String message, String details) {
-        super();
+    public ErrorDetails(int statusCode, Date timestamp, String message, String description) {
+        this.statusCode = statusCode;
         this.timestamp = timestamp;
         this.message = message;
-        this.details = details;
+        this.description = description;
     }
 
-    public Date getTimestamp() {
-        return timestamp;
-    }
-
-    public String getMessage() {
-        return message;
-    }
-
-    public String getDetails() {
-        return details;
-    }
 }

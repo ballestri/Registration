@@ -11,15 +11,17 @@ import org.springframework.web.client.RestTemplate;
 @EnableAspectJAutoProxy
 public class RegistrationApplication {
 
-	@Bean
-	public RestTemplate restTemplate(RestTemplateBuilder builder) {
-		return builder.build();
-	}
+    @Bean
+    public RestTemplate restTemplate(RestTemplateBuilder builder) {
+        return builder.build();
+    }
 
-	public static void main(String... args) {
-		SpringApplication.run(RegistrationApplication.class, args);
-
-	}
-
-
+    /**
+     * Launches the application
+     *
+     * @param args - Application startup arguments
+     */
+    public static void main(String... args) {
+        SpringApplication.run(RegistrationApplication.class, args);
+    }
 }
