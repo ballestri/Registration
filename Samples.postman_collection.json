@@ -1,0 +1,155 @@
+{
+	"info": {
+		"_postman_id": "20d64e9d-c4fc-47fd-b99f-7f4d7faf0a8b",
+		"name": "Samples",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "localhost:8080/api/v1/rest/users",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\": \"nelson\",\r\n    \"birthDate\": \"1998-01-01\",\r\n    \"country\": \"France\",\r\n    \"phoneNumber\": \"0661751923\",\r\n    \"gender\": \"feminin\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/api/v1/rest/users",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"rest",
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/api/v1/rest/users/find?username=farah",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/v1/rest/users/find?username=nelson",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"rest",
+						"users",
+						"find"
+					],
+					"query": [
+						{
+							"key": "username",
+							"value": "nelson"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/api/v1/rest/users/find?username=farah",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/v1/rest/users/find?username=farah",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"rest",
+						"users",
+						"find"
+					],
+					"query": [
+						{
+							"key": "username",
+							"value": "farah"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/api/v1/rest/users",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\": \"farah\",\r\n    \"birthDate\": \"2018-12-01\",\r\n    \"country\": \"Italy\",\r\n    \"phoneNumber\": \"0661751903\",\r\n    \"gender\": \"feminin\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/api/v1/rest/users",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"rest",
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/api/v1/rest/users",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\": \"luc\",\r\n    \"birthDate\": \"2021-07-12\",\r\n    \"country\": \"France\",\r\n    \"phoneNumber\": \"0661751923\",\r\n    \"gender\": \"masculin\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/api/v1/rest/users",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"rest",
+						"users"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
