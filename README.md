@@ -7,6 +7,7 @@
 mvn install
 
 ## Features
+- Creating a RESTful API
 - User registration
 - An endpoint to Registered User and search specifical User
 - Persistence for storing users in H2 database
